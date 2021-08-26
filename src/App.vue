@@ -14,15 +14,14 @@
               <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link active" to="/about">About</router-link>
+              <router-link class="nav-link" to="/about">About</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link active" to="/contact">Contact</router-link>
+              <router-link class="nav-link" to="/contact">Contact</router-link>
             </li>
           </ul>
           <form class="d-flex">
             <a href="https://learn.cowater-pamifpnh.com" target="_blank">Plateforme Éducative</a>
-            <!-- <router-link class="nav-link active" to="/contact">Contact</router-link> -->
           </form>
         </div>
       </div>
@@ -56,6 +55,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #bef3db;
+  color: #92f70f;
 }
 </style>
