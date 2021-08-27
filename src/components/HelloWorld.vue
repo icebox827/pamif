@@ -11,8 +11,8 @@
           </div>
         </div>
         <div class="social">
-          <a href="https://web.facebook.com/Pamif-Pnh-107899311596451"><fa :icon="['fab', 'facebook']" /></a>
-          <a href="https://twitter.com/PamifP"><fa :icon="['fab', 'twitter']" /></a>
+          <a href="https://web.facebook.com/Pamif-Pnh-107899311596451" target="_blank"><fa :icon="['fab', 'facebook']" /></a>
+          <a href="https://twitter.com/PamifP" arget="_blank"><fa :icon="['fab', 'twitter']" /></a>
         </div>
       </div>
     </div>
