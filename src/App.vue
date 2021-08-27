@@ -20,9 +20,9 @@
               <router-link class="nav-link" to="/contact">Contact</router-link>
             </li>
           </ul>
-          <form class="d-flex">
+          <div class="d-flex">
             <a href="https://learn.cowater-pamifpnh.com" target="_blank">Plateforme Éducative</a>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
