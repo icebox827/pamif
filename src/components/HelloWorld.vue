@@ -1,7 +1,7 @@
 <template>
  <section>
    <div class="hello">
-    <div class="image">
+    <div class="image" :style="{ backgroundImage: `url( ${Image} )` }">
       <img alt="pamif logo" src="../assets/logo_pamif.png">
       <h1>{{ msg }}</h1>
     </div>
@@ -10,7 +10,12 @@
 </template>
 
 <script>
+import Image from '@/assets/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg'
+
 export default {
+  data: () => ({
+    Image
+  }),
   name: 'HelloWorld',
   props: {
     msg: String
@@ -22,7 +27,6 @@ export default {
 <style scoped>
 .image {
   height: 100vh;
-  background-image: url("https://unsplash.com/photos/jzonFmreWok?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
