@@ -1,11 +1,19 @@
 <template>
-  <div class="hello">
+ <section>
+   <div class="hello">
     <h1>{{ msg }}</h1>
+    <div :style="image" class="image"></div>
   </div>
+ </section>
 </template>
 
 <script>
 export default {
+  data () {
+    return {
+      image: { backgroundImage: 'url(https://unsplash.com/photos/jzonFmreWok?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)' }
+    }
+  },
   name: 'HelloWorld',
   props: {
     msg: String
@@ -15,18 +23,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
+.image {
+  width: 100%;
+  height: 100vh;
 }
 </style>

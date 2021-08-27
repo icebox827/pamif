@@ -55,6 +55,15 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #92f70f;
+  color: #f33f1f;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(124, 175, 252);
+  font-size: larger;
 }
 </style>
