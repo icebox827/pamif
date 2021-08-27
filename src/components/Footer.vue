@@ -1,13 +1,13 @@
 <template>
    <footer>
     <div class="footer">
-      <p> &copy; Built with love by Denis Lafontant</p>
+      <p> &copy; Built with love by <a href="https://denislafontant.com" target="_blank">Denis Lafontant</a></p>
       <p> 2021 - All rights reserved</p>
     </div>
   </footer>
 </template>
 
-<style>
+<style scope>
 footer {
   background-color: black;
 }
@@ -19,5 +19,9 @@ footer {
 .footer p{
   margin: 5px;
   color: white;
+}
+
+a {
+  text-decoration: none;
 }
 </style>
