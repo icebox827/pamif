@@ -15,10 +15,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.home {
-  text-align: center;
-  color: rgb(78, 92, 116);
-}
-</style>

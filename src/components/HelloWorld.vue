@@ -7,10 +7,15 @@
     </div>
   </div>
  </section>
+ <section>
+   <div class="content">
+     <p></p>
+   </div>
+ </section>
 </template>
 
 <script>
-import Image from '@/assets/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg'
+import Image from '@/assets/background.png'
 
 export default {
   data: () => ({
