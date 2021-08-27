@@ -3,9 +3,16 @@
    <div class="hello">
       <div class="image" :style="{ backgroundImage: `url( ${Image} )` }">
         <h1>{{ msg }}</h1>
-        <div class="content d-flex mt-2 justify-between">
+        <div class="content">
           <img alt="logo" src="../assets/LOGO.png">
-          <h3>Une programme de formation accélérée</h3>
+          <div class="text">
+            <h3>L'intégration des femmes dans les forces de l'ordre <br>est un atout majeur pour le renforcement de la sécurité
+            </h3>
+          </div>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="#">Twitter</a>
         </div>
       </div>
     </div>
@@ -41,16 +48,25 @@ export default {
 }
 
 .content {
-  width: 80%;
-  border: 1px solid gray;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .content img {
   width: 25%;
   padding-left: 20px;
+  margin-top: 5rem;
 }
 
-.content h3 {
-  width: 50%;
+.text {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
 }
 </style>
