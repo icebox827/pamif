@@ -11,8 +11,8 @@
           </div>
         </div>
         <div class="social">
-          <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a href="#">Twitter</a>
+          <a href="https://web.facebook.com/Pamif-Pnh-107899311596451"><fa :icon="['fab', 'facebook']" /></a>
+          <a href="https://twitter.com/PamifP"><fa :icon="['fab', 'twitter']" /></a>
         </div>
       </div>
     </div>
@@ -68,5 +68,16 @@ export default {
 .social {
   display: flex;
   justify-content: center;
+}
+
+.social a {
+  color: black;
+  margin: 20px;
+  font-size: 4rem;
+}
+
+a:hover {
+  font-size: 6rem;
+  background-color: white;
 }
 </style>
