@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <form action="">
+                <form action="https://formspree.io/f/xjvjjvab" method="POST">
                   <fieldset>
                     <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label">Adresse Email</label>
