@@ -5,7 +5,8 @@
         <div class="card mb-3" style="max-width: 640px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
+              <img src="../assets/LOGO.png" class="img-fluid rounded-start" alt="Logo">
+              <h2>PAMIF-PNH</h2>
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -26,21 +27,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="card" style="width: 34rem;">
-          <form action="">
-            <fieldset>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Adresse Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Contenu</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Envoyer</button>
-            </fieldset>
-          </form>
-        </div> -->
     </div>
   </section>
 </template>
@@ -81,5 +67,15 @@ h1 {
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 2.5px );
   -webkit-backdrop-filter: blur( 2.5px );
+}
+
+.card img {
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card h2 {
+  text-align: center;
 }
 </style>
