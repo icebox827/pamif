@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <ContactForm />
+    <ContactForm msg="Contactez-nous" />
   </div>
 </template>
 
