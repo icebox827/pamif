@@ -3,16 +3,16 @@
    <div class="hello">
       <div class="image" :style="{ backgroundImage: `url( ${Image} )` }">
         <h1>{{ msg }}</h1>
-        <div class="content">
-          <img alt="logo" src="../assets/LOGO.png">
-          <div class="text">
-            <h3>L'intégration des femmes dans les forces de l'ordre <br>est un atout majeur pour le renforcement de la sécurité
-            </h3>
+        <div class="card" style="width: 34rem;">
+          <img alt="logo" class="card-img-top" src="../assets/LOGO.png">
+          <div class="card-body">
+            <h5 class="card-title text-center">Formation accélérée</h5>
+            <p class="card-text text-center">L'intégration des femmes dans les forces de l'ordre <br>est un atout majeur pour le renforcement de la sécurité</p>
+            <div class="social">
+              <a href="https://web.facebook.com/Pamif-Pnh-107899311596451" target="_blank"><fa :icon="['fab', 'facebook']" /></a>
+              <a href="https://twitter.com/PamifP" arget="_blank"><fa :icon="['fab', 'twitter']" /></a>
+            </div>
           </div>
-        </div>
-        <div class="social">
-          <a href="https://web.facebook.com/Pamif-Pnh-107899311596451" target="_blank"><fa :icon="['fab', 'facebook']" /></a>
-          <a href="https://twitter.com/PamifP" arget="_blank"><fa :icon="['fab', 'twitter']" /></a>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .image {
-  height: 100vh;
+  height: 88vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,22 +47,21 @@ export default {
   padding-top: 10px;
 }
 
-.content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba( 255, 255, 255, 0.65 );
+  border: 1px solid rgba(250, 235, 215, 0.473);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 2.5px );
+  -webkit-backdrop-filter: blur( 2.5px );
 }
 
-.content img {
-  width: 25%;
-  padding-left: 20px;
-  margin-top: 5rem;
-}
-
-.text {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 8rem;
+.card img {
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social {
@@ -73,11 +72,11 @@ export default {
 .social a {
   color: black;
   margin: 20px;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 a:hover {
-  font-size: 6rem;
+  font-size: 5rem;
   background-color: white;
 }
 </style>
