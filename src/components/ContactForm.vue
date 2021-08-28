@@ -14,11 +14,11 @@
                   <fieldset>
                     <div class="mb-3">
                       <label for="exampleFormControlInput1" class="form-label">Adresse Email</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
                     </div>
                     <div class="mb-3">
                       <label for="exampleFormControlTextarea1" class="form-label">Contenu</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <textarea class="form-control" name="content" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="button">
                       <button type="submit" class="btn btn-primary">Envoyer</button>
