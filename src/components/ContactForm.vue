@@ -20,7 +20,9 @@
                       <label for="exampleFormControlTextarea1" class="form-label">Contenu</label>
                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                    <div class="button">
+                      <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </div>
                   </fieldset>
                 </form>
               </div>
@@ -77,5 +79,10 @@ h1 {
 
 .card h2 {
   text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 </style>
