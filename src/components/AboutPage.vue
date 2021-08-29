@@ -2,6 +2,7 @@
   <section>
     <div class="image" :style="{ backgroundImage: `url( ${Image} )` }">
       <h1>{{ msg }}</h1>
+    </div>
   </section>
 </template>
 
@@ -18,3 +19,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.image {
+  height: 88vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+</style>
