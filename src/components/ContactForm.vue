@@ -49,7 +49,7 @@ export default {
 
 <style scoped>
 .image {
-  height: 88vh;
+  height: 87.5vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

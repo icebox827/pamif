@@ -19,8 +19,8 @@
             départements géographiques prioritaires du projet, a savoir l'Ouest, l'Artibonite, le Nord et le Sud.
             <br />
             <br />
-            Ce projet utilise un modèle hybride pour les séances de formation, une partie est dispensé en présentiel et l'autre<br />
-            en ligne à trvavers notre plateforme de formation.
+            Ce projet utilise un modèle hybride pour les séances de formation, une partie est dispensée en présentielle et l'autre<br />
+            en ligne à travers notre plateforme de formation.
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@ export default {
 
 <style scoped>
 .image {
-  height: 88vh;
+  height: 87.5vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

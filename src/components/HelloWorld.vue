@@ -10,7 +10,7 @@
             <p class="card-text text-center">L'intégration des femmes dans les forces de l'ordre <br>est un atout majeur pour le renforcement de la sécurité</p>
             <div class="social">
               <a href="https://web.facebook.com/Pamif-Pnh-107899311596451" target="_blank"><fa :icon="['fab', 'facebook']" /></a>
-              <a href="https://twitter.com/PamifP" arget="_blank"><fa :icon="['fab', 'twitter']" /></a>
+              <a href="https://twitter.com/PamifP" target="_blank"><fa :icon="['fab', 'twitter']" /></a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .image {
-  height: 88vh;
+  height: 87.5vh;;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
