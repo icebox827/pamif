@@ -4,7 +4,12 @@
       <header>
         <h1>{{ msg }}</h1>
       </header>
-      <div></div>
+      <div class="content">
+        <div class="profile">
+          <h2>Mot du Coordonnateur de terrain</h2>
+          <img src="../assets/dd.png" alt="Daniel Denis"/>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -34,5 +39,11 @@ export default {
 .image h1 {
   text-align: center;
   padding-top: 15px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 </style>
