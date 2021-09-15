@@ -63,6 +63,7 @@ export default {
 
 .profile img {
   border-radius: 20%;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
 
 .profile h5 {
