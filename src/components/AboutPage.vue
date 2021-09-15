@@ -6,8 +6,10 @@
       </header>
       <div class="content">
         <div class="profile">
-          <h2>Mot du Coordonnateur de terrain</h2>
           <img src="../assets/dd.png" alt="Daniel Denis"/>
+        </div>
+        <div class="pitch">
+          <h2>Mot du Coordonnateur de terrain</h2>
         </div>
       </div>
     </div>
@@ -43,7 +45,11 @@ export default {
 
 .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 10px;
+}
+
+.profile img {
+  border-radius: 20%;
 }
 </style>
