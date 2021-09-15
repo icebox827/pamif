@@ -1,7 +1,10 @@
 <template>
   <section>
     <div class="image" :style="{ backgroundImage: `url( ${Image} )` }">
-      <h1>{{ msg }}</h1>
+      <header>
+        <h1>{{ msg }}</h1>
+      </header>
+      <div></div>
     </div>
   </section>
 </template>
