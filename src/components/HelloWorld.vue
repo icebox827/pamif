@@ -6,7 +6,7 @@
         <div class="card" style="width: 34rem;">
           <img alt="logo" class="card-img-top" src="../assets/LOGO.png">
           <div class="card-body">
-            <h5 class="card-title text-center">Formation accélérée</h5>
+            <h5 class="card-title text-center">Programme de Formation accélérée</h5>
             <p class="card-text text-center">L'intégration des femmes dans les forces de l'ordre <br>est un atout majeur pour le renforcement de la sécurité</p>
             <div class="social">
               <a href="https://web.facebook.com/Pamif-Pnh-107899311596451" target="_blank"><fa :icon="['fab', 'facebook']" /></a>
