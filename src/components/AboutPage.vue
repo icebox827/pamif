@@ -12,6 +12,16 @@
         </div>
         <div class="pitch">
           <h2>Mot du Coordonnateur</h2>
+          <p>
+            Le Projet d'Appui pour une Meilleure Intégration des Femmes au sein de la Police Nationale d'Haïti (PAMIF-PNH),<br />
+            a pour objectif de fournir un appui pédagogique supplémentaire aux jeunes filles désireuses de préparer le concours<br />
+            d'admission à la PNH. Ce complément de formation s'ajoute au séances en présentiels qui sont dispenées dans les<br />
+            départements géographiques prioritaires du projet, a savoir l'Ouest, l'Artibonite, le Nord et le Sud.
+            <br />
+            <br />
+            Ce projet utilise un modèle hybride pour les séances de formation, une partie est dispensé en présentiel et l'autre<br />
+            en ligne à trvavers notre plateforme de formation.
+          </p>
         </div>
       </div>
     </div>
@@ -59,5 +69,14 @@ export default {
   text-align: center;
   font-weight: 600;
   font-style: italic;
+}
+
+.pitch h2 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.pitch p {
+  font-weight: 700;
 }
 </style>
