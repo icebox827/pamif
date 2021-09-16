@@ -21,7 +21,7 @@
             </li>
           </ul>
           <div class="d-flex">
-            <a href="https://learn.cowater-pamifpnh.com" target="_blank">Plateforme Éducative</a>
+            <a href="https://learn.cowater-pamifpnh.com/login/index.php" target="_blank">Plateforme Éducative</a>
           </div>
         </div>
       </div>
