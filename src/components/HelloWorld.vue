@@ -36,7 +36,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .image {
-  height: 87.5vh;;
+  height: 100vh;;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
